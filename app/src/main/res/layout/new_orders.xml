@@ -1,0 +1,72 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <!--
+        /*
+         *	This content is generated from the API File Info.
+         *	(Alt+Shift+Ctrl+I).
+         *
+         *	@desc
+         *	@file 		android_large___11
+         *	@date 		Saturday 06th of April 2024 07:38:31 AM
+         *	@title 		Page 1
+         *	@author
+         *	@keywords
+         *	@generator 	Export Kit v1.3.figma
+         *
+         */
+         -->
+    <RelativeLayout android:id="@+id/android_large___11" android:layout_width="wrap_content" android:layout_height="match_parent">
+        <RelativeLayout android:id="@+id/content_container" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView android:id="@+id/mask_group_new_order" android:src="@drawable/mask_group_new_orders" android:contentDescription="mask_group" android:layout_marginStart="0dp" android:layout_marginTop="-74dp" android:layout_width="410dp" android:layout_height="303dp"/>
+        </RelativeLayout>    
+        <RelativeLayout
+            android:id="@+id/new_orders_container" 
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" 
+            android:layout_centerHorizontal="true">
+            <TextView android:id="@+id/new_orders" android:textStyle="bold" android:layout_gravity="center_horizontal|center" android:gravity="center" android:textSize="28sp" android:textColor="@color/new_orders_color" android:layout_marginLeft="-32dp" android:layout_marginTop="154dp" android:layout_width="246dp" android:layout_height="77.8dp" android:text="@string/new_orders_string"/>
+            
+<!--            from here implement recycle view-->
+            <RelativeLayout android:id="@+id/order1" android:layout_marginTop="230dp" android:layout_marginStart="1dp" android:layout_width="wrap_content" android:layout_height="wrap_content">
+
+                <RelativeLayout android:id="@+id/group_17" android:layout_marginTop="0dp" android:layout_marginStart="0dp" android:layout_width="wrap_content" android:layout_height="wrap_content">
+
+                    <View android:id="@+id/rectangle_27" android:background="@drawable/rectangle_27_shape" android:layout_marginStart="0dp" android:layout_marginTop="0dp" android:layout_width="335dp" android:layout_height="76dp"/>
+                </RelativeLayout>
+                <TextView android:id="@+id/item_name___chapati" android:textSize="16sp" android:textColor="@color/new_orders_color" android:layout_marginLeft="8dp" android:layout_marginTop="0dp" android:layout_width="258.6dp" android:layout_height="35.6dp" android:text="@string/item_name___chapati_string"/>
+                <TextView android:id="@+id/quantity___4" android:textSize="16sp" android:textColor="@color/new_orders_color" android:layout_marginLeft="8dp" android:layout_marginTop="21dp" android:layout_width="156.6dp" android:layout_height="35.6dp" android:text="@string/quantity___4_string"/>
+                <TextView android:id="@+id/ordered_by___rajesh_patil" android:textSize="16sp" android:textColor="@color/new_orders_color" android:layout_marginLeft="8dp" android:layout_marginTop="42dp" android:layout_width="258.6dp" android:layout_height="35.6dp" android:text="@string/ordered_by___rajesh_patil_string"/>
+                <View android:id="@+id/rectangle_29" android:background="@drawable/rectangle_29_shape" android:layout_marginStart="258dp" android:layout_marginTop="16dp" android:layout_width="65dp" android:layout_height="42dp"/>
+                <TextView android:id="@+id/confirm_order" android:layout_gravity="center_horizontal|center" android:gravity="center" android:textSize="15sp" android:textColor="@color/_bg__android_large___11_color" android:layout_marginLeft="254dp" android:layout_marginTop="17dp" android:layout_width="72dp" android:layout_height="43.5dp" android:text="@string/confirm_order_string"/>
+            </RelativeLayout>
+<!--            Recycler view ends here-->
+<!--            <RelativeLayout android:id="@+id/order1_ek2" android:layout_marginTop="309dp" android:layout_marginStart="13dp" android:layout_width="wrap_content" android:layout_height="wrap_content">-->
+<!--                <View android:id="@+id/_bg__order1_ek3" android:background="@drawable/_bg__order1_ek3_shape" android:layout_marginStart="-13dp" android:layout_marginTop="-309dp" android:layout_width="335dp" android:layout_height="76dp"/>-->
+<!--                <RelativeLayout android:id="@+id/group_17_ek2" android:layout_marginTop="0dp" android:layout_marginStart="0dp" android:layout_width="wrap_content" android:layout_height="wrap_content">-->
+
+<!--                    <View android:id="@+id/rectangle_27_ek1" android:background="@drawable/rectangle_27_ek1_shape" android:layout_marginStart="0dp" android:layout_marginTop="0dp" android:layout_width="335dp" android:layout_height="76dp"/>-->
+<!--                </RelativeLayout>-->
+<!--                <TextView android:id="@+id/item_name___stuffed_brinjal" android:textSize="16sp" android:textColor="@color/new_orders_color" android:layout_marginLeft="8dp" android:layout_marginTop="0dp" android:layout_width="258.6dp" android:layout_height="35.6dp" android:text="@string/item_name___stuffed_brinjal_string"/>-->
+<!--                <TextView android:id="@+id/quantity___1" android:textSize="16sp" android:textColor="@color/new_orders_color" android:layout_marginLeft="8dp" android:layout_marginTop="21dp" android:layout_width="156.6dp" android:layout_height="35.6dp" android:text="@string/quantity___1_string"/>-->
+<!--                <TextView android:id="@+id/ordered_by___omkar_pawar" android:textSize="16sp" android:textColor="@color/new_orders_color" android:layout_marginLeft="8dp" android:layout_marginTop="42dp" android:layout_width="258.6dp" android:layout_height="35.6dp" android:text="@string/ordered_by___omkar_pawar_string"/>-->
+<!--                <View android:id="@+id/rectangle_29_ek1" android:background="@drawable/rectangle_29_ek1_shape" android:layout_marginStart="258dp" android:layout_marginTop="16dp" android:layout_width="65dp" android:layout_height="42dp"/>-->
+<!--                <TextView android:id="@+id/confirm_order_ek1" android:layout_gravity="center_horizontal|center" android:gravity="center" android:textSize="15sp" android:textColor="@color/_bg__android_large___11_color" android:layout_marginLeft="254dp" android:layout_marginTop="17dp" android:layout_width="72dp" android:layout_height="43.5dp" android:text="@string/confirm_order_ek1_string"/>-->
+<!--            </RelativeLayout>-->
+<!--            <RelativeLayout android:id="@+id/order1_ek4" android:layout_marginTop="403dp" android:layout_marginStart="13dp" android:layout_width="wrap_content" android:layout_height="wrap_content">-->
+
+<!--                <RelativeLayout android:id="@+id/group_17_ek4" android:layout_marginTop="0dp" android:layout_marginStart="0dp" android:layout_width="wrap_content" android:layout_height="wrap_content">-->
+
+<!--                    <View android:id="@+id/rectangle_27_ek2" android:background="@drawable/rectangle_27_ek2_shape" android:layout_marginStart="0dp" android:layout_marginTop="0dp" android:layout_width="335dp" android:layout_height="76dp"/>-->
+<!--                </RelativeLayout>-->
+<!--                <TextView android:id="@+id/item_name___rice" android:textSize="16sp" android:textColor="@color/new_orders_color" android:layout_marginLeft="8dp" android:layout_marginTop="0dp" android:layout_width="258.6dp" android:layout_height="35.6dp" android:text="@string/item_name___rice_string"/>-->
+<!--                <TextView android:id="@+id/quantity___2" android:textSize="16sp" android:textColor="@color/new_orders_color" android:layout_marginLeft="8dp" android:layout_marginTop="21dp" android:layout_width="156.6dp" android:layout_height="35.6dp" android:text="@string/quantity___2_string"/>-->
+<!--                <TextView android:id="@+id/ordered_by___mayur_suryawanshi" android:textSize="16sp" android:textColor="@color/new_orders_color" android:layout_marginLeft="8dp" android:layout_marginTop="42dp" android:layout_width="258.6dp" android:layout_height="35.6dp" android:text="@string/ordered_by___mayur_suryawanshi_string"/>-->
+<!--                <View android:id="@+id/rectangle_29_ek2" android:background="@drawable/rectangle_29_ek2_shape" android:layout_marginStart="258dp" android:layout_marginTop="16dp" android:layout_width="65dp" android:layout_height="42dp"/>-->
+<!--                <TextView android:id="@+id/confirm_order_ek2" android:layout_gravity="center_horizontal|center" android:gravity="center" android:textSize="15sp" android:textColor="@color/_bg__android_large___11_color" android:layout_marginLeft="254dp" android:layout_marginTop="17dp" android:layout_width="72dp" android:layout_height="43.5dp" android:text="@string/confirm_order_ek2_string"/>-->
+<!--            </RelativeLayout>-->
+        </RelativeLayout>
+            
+
+            <ImageView android:id="@+id/banner_3_1" android:src="@drawable/banner_3_1" android:contentDescription="banner_3_1" android:layout_marginStart="0dp" android:layout_marginTop="668dp" android:layout_width="430dp" android:layout_height="180dp"/>
+        </RelativeLayout>
+    </RelativeLayout>

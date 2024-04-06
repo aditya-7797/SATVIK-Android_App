@@ -1,0 +1,46 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <!--
+        /*
+         *	This content is generated from the API File Info.
+         *	(Alt+Shift+Ctrl+I).
+         *
+         *	@desc
+         *	@file 		splashscreen
+         *	@date 		Wednesday 27th of March 2024 03:01:21 PM
+         *	@title 		Page 1
+         *	@author
+         *	@keywords
+         *	@generator 	Export Kit v1.3.figma
+         *
+         */
+         -->
+    <RelativeLayout android:id="@+id/splashscreen" android:layout_width="wrap_content" android:layout_height="match_parent">
+        <RelativeLayout android:id="@+id/content_container" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <View android:id="@+id/_bg___splashscreen" android:background="@drawable/_bg___splashscreen_shape" android:layout_marginStart="0dp" android:layout_marginTop="0dp" android:layout_width="410dp" android:layout_height="900dp"/>
+
+            <ImageView
+                android:id="@+id/satvik_final_3_design_file_1_1200x1200_1"
+                android:layout_width="215dp"
+                android:layout_height="139dp"
+               android:layout_centerHorizontal="true"
+                android:layout_marginStart="96dp"
+                android:layout_marginTop="307dp"
+                android:layout_marginEnd="99dp"
+                android:contentDescription="satvik_final_3_design_file_1_1200x1200_1"
+                android:src="@drawable/satvik_final_3_design_file_1_1200x1200_1" />
+
+            <TextView
+                android:id="@+id/the_legacy_of_good_food"
+                android:layout_width="wrap_content"
+                android:layout_height="26dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginStart="76dp"
+                android:layout_marginLeft="60dp"
+                android:layout_marginTop="461dp"
+                android:layout_marginEnd="76dp"
+                android:text="@string/the_legacy_of_good_food_string"
+                android:textColor="@color/the_legacy_of_good_food_color"
+                android:textSize="20sp" />
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,256 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <!--
+        /*
+         *	This content is generated from the API File Info.
+         *	(Alt+Shift+Ctrl+I).
+         *
+         *	@desc
+         *	@file 		login
+         *	@date 		Saturday 30th of March 2024 05:31:05 AM
+         *	@title 		Page 1
+         *	@author
+         *	@keywords
+         *	@generator 	Export Kit v1.3.figma
+         *
+         */
+         -->
+    <RelativeLayout
+        android:id="@+id/login_"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:id="@+id/content_container"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/mask_group_login"
+                android:layout_width="420dp"
+                android:layout_height="303dp"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="-50dp"
+                android:contentDescription="mask_group_login"
+                android:src="@drawable/mask_group_login" />
+
+            <TextView
+                android:id="@+id/_not_a_member__sign_up_now"
+                android:layout_width="216.3dp"
+                android:layout_height="48.3dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="740dp"
+                android:gravity="center"
+                android:shadowColor="#000000"
+                android:shadowDx="0"
+                android:shadowDy="4"
+                android:shadowRadius="4"
+                android:text="@string/_not_a_member__sign_up_now_string"
+                android:textColor="@color/_not_a_member__sign_up_now_color"
+                android:textSize="13sp" />
+
+            <RelativeLayout
+                android:id="@+id/group_2"
+                android:layout_width="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="53dp"
+                android:layout_marginTop="539dp">
+
+                <TextView
+                    android:id="@+id/or"
+                    android:layout_width="111.4dp"
+                    android:layout_height="48.4dp"
+                    android:layout_gravity="center_horizontal|center"
+                    android:layout_marginLeft="66dp"
+                    android:layout_marginTop="-13dp"
+                    android:gravity="center"
+                    android:shadowColor="#000000"
+                    android:shadowDx="0"
+                    android:shadowDy="4"
+                    android:shadowRadius="4"
+                    android:text="@string/or_string"
+                    android:textColor="@color/_not_a_member__sign_up_now_color"
+                    android:textSize="14sp" />
+
+                <ImageView
+                    android:id="@+id/line_1"
+                    android:layout_width="104dp"
+                    android:layout_height="1dp"
+                    android:layout_marginStart="-1dp"
+                    android:layout_marginTop="9dp"
+                    android:contentDescription="line_1"
+                    android:src="@drawable/line_1" />
+
+                <ImageView
+                    android:id="@+id/line_2"
+                    android:layout_width="115.5dp"
+                    android:layout_height="1dp"
+                    android:layout_marginStart="138dp"
+                    android:layout_marginTop="9dp"
+                    android:contentDescription="line_2"
+                    android:src="@drawable/line_2" />
+            </RelativeLayout>
+
+            <ImageView
+                android:id="@+id/google_login1"
+                android:layout_width="246dp"
+                android:layout_height="37dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginStart="56dp"
+                android:layout_marginTop="570dp"
+                android:contentDescription="google_login1"
+                android:src="@drawable/google_login1" />
+
+            <RelativeLayout
+                android:id="@+id/login_page"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="222dp">
+
+                <View
+                    android:id="@+id/rectangle_16"
+                    android:layout_width="305dp"
+                    android:layout_height="310dp"
+                    android:layout_marginStart="0dp"
+                    android:layout_marginTop="7dp"
+                    android:background="@drawable/rectangle_16_shape" />
+
+                <TextView
+                    android:id="@+id/login"
+                    android:layout_width="230.4dp"
+                    android:layout_height="105.4dp"
+                    android:layout_gravity="center_horizontal|center"
+                    android:layout_marginLeft="37dp"
+                    android:layout_marginTop="0dp"
+                    android:gravity="center"
+                    android:text="@string/login_string"
+                    android:textColor="@color/_not_a_member__sign_up_now_color"
+                    android:textSize="24sp" />
+
+                <TextView
+                    android:id="@+id/username"
+                    android:layout_width="73.2dp"
+                    android:layout_height="23.2dp"
+                    android:layout_gravity="center_horizontal|center"
+                    android:layout_marginLeft="22dp"
+                    android:layout_marginTop="88dp"
+                    android:gravity="center"
+                    android:shadowColor="#000000"
+                    android:shadowDx="0"
+                    android:shadowDy="4"
+                    android:shadowRadius="4"
+                    android:text="@string/username_string"
+                    android:textColor="@color/_not_a_member__sign_up_now_color"
+                    android:textSize="12sp" />
+
+                <View
+                    android:id="@+id/rectangle_17"
+                    android:layout_width="249dp"
+                    android:layout_height="28dp"
+                    android:layout_marginStart="34dp"
+                    android:layout_marginTop="116dp"
+                    android:background="@drawable/rectangle_17_shape" />
+
+                <ImageView
+                    android:id="@+id/vector"
+                    android:layout_width="13dp"
+                    android:layout_height="14dp"
+                    android:layout_marginStart="41dp"
+                    android:layout_marginTop="123dp"
+                    android:contentDescription="vector"
+                    android:src="@drawable/vector" />
+
+                <TextView
+                    android:id="@+id/type_your_username"
+                    android:layout_width="199dp"
+                    android:layout_height="17dp"
+                    android:layout_marginLeft="64dp"
+                    android:layout_marginTop="123dp"
+                    android:text="@string/type_your_username_string"
+                    android:textColor="@color/type_your_username_color" />
+
+                <TextView
+                    android:id="@+id/password"
+                    android:layout_width="73.2dp"
+                    android:layout_height="23.2dp"
+                    android:layout_gravity="center_horizontal|center"
+                    android:layout_marginLeft="22dp"
+                    android:layout_marginTop="162dp"
+                    android:gravity="center"
+                    android:shadowColor="#000000"
+                    android:shadowDx="0"
+                    android:shadowDy="4"
+                    android:shadowRadius="4"
+                    android:text="@string/password_string"
+                    android:textColor="@color/_not_a_member__sign_up_now_color"
+                    android:textSize="12sp" />
+
+                <View
+                    android:id="@+id/rectangle_18"
+                    android:layout_width="249dp"
+                    android:layout_height="28dp"
+                    android:layout_marginStart="34dp"
+                    android:layout_marginTop="190dp"
+                    android:background="@drawable/rectangle_18_shape" />
+
+                <TextView
+                    android:id="@+id/type_your_password"
+                    android:layout_width="203dp"
+                    android:layout_height="17dp"
+                    android:layout_marginLeft="60dp"
+                    android:layout_marginTop="197dp"
+                    android:text="@string/type_your_password_string"
+                    android:textColor="@color/type_your_username_color" />
+
+                <TextView
+                    android:id="@+id/forget_password_"
+                    android:layout_width="wrap_content"
+                    android:layout_height="23dp"
+                    android:layout_gravity="center_horizontal|center"
+                    android:layout_marginLeft="170dp"
+                    android:layout_marginTop="223dp"
+                    android:gravity="center"
+                    android:text="@string/forget_password__string"
+                    android:textColor="@color/forget_password__color" />
+
+                <View
+                    android:id="@+id/rectangle_19"
+                    android:layout_width="199dp"
+                    android:layout_height="30dp"
+                    android:layout_marginStart="60dp"
+                    android:layout_marginTop="255dp"
+                    android:background="@drawable/rectangle_19_shape" />
+
+                <TextView
+                    android:id="@+id/login_ek1"
+                    android:layout_width="73.2dp"
+                    android:layout_height="23.2dp"
+                    android:layout_gravity="center_horizontal|center"
+                    android:layout_marginLeft="120dp"
+                    android:layout_marginTop="260dp"
+                    android:gravity="center"
+                    android:shadowColor="#000000"
+                    android:shadowDx="0"
+                    android:shadowDy="4"
+                    android:shadowRadius="4"
+                    android:text="@string/login_ek1_string"
+                    android:textColor="@color/_bg__login_color"
+                    android:textSize="12sp"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/angle_left"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="6dp"
+                android:layout_marginTop="6dp" />
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>
