@@ -1,15 +1,13 @@
 <resources>
 <!--    <string name="app_name">Satvik</string>-->
 <!--    <string name="app_name">Page 1</string>-->
-    <string name="ek_img_content">ExportKit Image</string>
     <string name="search_for_your_fav_food_string">Search for your fav food</string>
     <string name="veg_string">Veg</string>
     <string name="non_veg_string">Non-Veg</string>
     <string name="suppliers_near_you____string">Suppliers Near You...</string>
     <string name="connect_string">Connect</string>
     <string name="madhavi_bhide_ek2_string">Madhavi Bhide</string>
-    <string name="upper_indiranagar_string">Upper Indiranagar</string>
-    <string name="serves_western_maharashtrian_food_string">Serves Western Maharashtrian Food</string>
+
     <string name="connect_ek1_string">Connect</string>
     <string name="madhavi_bhide_ek5_string">Sonali Jadhav</string>
     <string name="katraj_string">Katraj</string>
@@ -18,11 +16,9 @@
     <string name="madhavi_bhide_ek8_string">Aruna Shinde</string>
     <string name="kondwa_budruk_string">Kondwa Budruk</string>
     <string name="serves_western_maharashtrian_and_punjabi_food_string">Serves Western Maharashtrian and Punjabi Food</string>
-    <string name="app_name">Page 1</string>
-    <string name="ek_img_content">ExportKit Image</string>
+
     <string name="the_legacy_of_good_food_string">The Legacy of Good Food</string>
-    <string name="app_name">Page 1</string>
-    <string name="ek_img_content">ExportKit Image</string>
+
     <string name="madhavi_bhide_string">MADHAVI BHIDE</string>
     <string name="upper_indiranagar_string">Upper Indiranagar</string>
     <string name="serves_western_maharashtrian_food_string">Serves Western Maharashtrian Food</string>
@@ -37,11 +33,9 @@
     <string name="rice_string">Rice</string>
     <string name="rs_30_bowl_string">Rs.30/Bowl</string>
 
-    <string name="app_name">Page 1</string>
-    <string name="ek_img_content">ExportKit Image</string>
+
     <string name="_not_a_member__sign_up_now_string">Not a member? Sign Up Now</string>
-    <string name="or_string">OR</string>
-    <string name="login_string">LOGIN</string>
+
     <string name="username_string">Username</string>
     <string name="type_your_username_string">Type your Username</string>
     <string name="password_string">Password</string>
@@ -51,7 +45,6 @@
     <string name="createacc">Create a Account</string>
     <string name="app_name">Page 1</string>
     <string name="ek_img_content">ExportKit Image</string>
-    <string name="sign_up_string">SIGN UP</string>
     <string name="_already_a_member__login_here_string">Already a member? Login here</string>
     <string name="or_string">OR</string>
     <string name="by_creating_a_account_to_agree_to_terms_of_use_and_privacy_policy_string">By creating a account to agree to terms of use and privacy policy</string>

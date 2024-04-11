@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "526601453064",
+    "project_id": "user1register",
+    "storage_bucket": "user1register.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:526601453064:android:2deb6debe0a8416753dbbd",
+        "android_client_info": {
+          "package_name": "com.example.satvik"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB3aKWCKlh4t-LnCNa-B3V4qG7IEwDouGk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
