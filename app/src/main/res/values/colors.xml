@@ -207,4 +207,31 @@
     <color name="DarkBlue">#00008B</color>
     <color name="Navy">#000080</color>
     <color name="Black">#000000</color>
+
+
+
+
+
+
+
+
+<!---->
+
+
+    <color name="setting_colour1">#EFF7F8</color>
+    <color name="setting_colour2">#000000</color>
+    <color name="setting_colour3">#FFFFFF</color>
+    <color name="join_us_now_to_view_complete_profile_color">#3F3F3F</color>
+    <color name="rectangle_22_color">#F8F2F2</color>
+    <color name="rectangle_24_ek1_color">#FEF6F6</color>
+
+
+
+
+
+
+    <color name="_bg__sup_main_color">#FFFFFF</color>
+    <color name="_bg___group_13_ek1_color">#000000</color>
+    <color name="rectangle_26_color">#FFF6F6</color>
+
 </resources>

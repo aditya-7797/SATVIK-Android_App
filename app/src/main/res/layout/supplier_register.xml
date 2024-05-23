@@ -3,7 +3,21 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    tools:context=".supplier_register"
+    >
+    <TextView
+        android:id="@+id/complete_profile"
+        android:layout_width="216.3dp"
+        android:layout_height="48.3dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="160dp"
+
+
+        android:shadowRadius="4"
+        android:text="Complete Your Profile"
+
+        android:textSize="20sp" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -38,25 +52,25 @@
             </LinearLayout>
         </com.google.android.material.card.MaterialCardView>
 
-        <EditText
-            android:id="@+id/username"
-            android:layout_width="match_parent"
-            android:layout_height="75dp"
-            android:layout_marginTop="30dp"
-            android:background="@color/white"
-            android:hint="Enter username"
-            android:paddingStart="20dp"
-            android:singleLine="true" />
+<!--        <EditText-->
+<!--            android:id="@+id/supplier_mobile_No"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="75dp"-->
+<!--            android:layout_marginTop="30dp"-->
+<!--            android:background="@color/white"-->
+<!--            android:hint="Enter Mobile No."-->
+<!--            android:paddingStart="20dp"-->
+<!--            android:singleLine="true" />-->
 
-        <EditText
-            android:id="@+id/fullname"
-            android:layout_width="match_parent"
-            android:layout_height="75dp"
-            android:layout_marginTop="30dp"
-            android:background="@color/white"
-            android:hint="Enter Fullname"
-            android:paddingStart="20dp"
-            android:singleLine="true" />
+<!--        <EditText-->
+<!--            android:id="@+id/fullname"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="75dp"-->
+<!--            android:layout_marginTop="30dp"-->
+<!--            android:background="@color/white"-->
+<!--            android:hint="Enter Fullname"-->
+<!--            android:paddingStart="20dp"-->
+<!--            android:singleLine="true" />-->
 
         <EditText
             android:id="@+id/address"

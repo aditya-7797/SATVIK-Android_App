@@ -1,6 +1,6 @@
 <resources>
-<!--    <string name="app_name">Satvik</string>-->
-<!--    <string name="app_name">Page 1</string>-->
+    <!--    <string name="app_name">Satvik</string>-->
+    <!--    <string name="app_name">Page 1</string>-->
     <string name="search_for_your_fav_food_string">Search for your fav food</string>
     <string name="veg_string">Veg</string>
     <string name="non_veg_string">Non-Veg</string>
@@ -82,4 +82,25 @@
     <string name="quantity___2_string">Quantity:- 2</string>
     <string name="ordered_by___mayur_suryawanshi_string">Ordered by:- Mayur Suryawanshi</string>
     <string name="confirm_order_ek2_string">Confirm Order</string>
+    <string name="your_profile_string">Your Profile</string>
+    <string name="title_activity_create_account">create_account</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="title_activity_setting">setting</string>
+    <string name="view_orders_string">View Orders</string>
+    <string name="view_students_request_string">View Students Request</string>
+    <string name="view_registered_students_string">View Registered Students</string>
+    <string name="satvik_string">SATVIK</string>
+    <string name="legacy_of_good_food_string">Legacy of Good Food</string>
+
+    <string-array name="dropdown_items">
+        <item>Student</item>
+        <item>Supplier</item>
+    </string-array>
+
+
 </resources>

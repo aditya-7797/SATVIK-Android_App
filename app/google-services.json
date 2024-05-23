@@ -1,13 +1,13 @@
 {
   "project_info": {
-    "project_number": "526601453064",
-    "project_id": "user1register",
-    "storage_bucket": "user1register.appspot.com"
+    "project_number": "632559117453",
+    "project_id": "satvik-6472",
+    "storage_bucket": "satvik-6472.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:526601453064:android:2deb6debe0a8416753dbbd",
+        "mobilesdk_app_id": "1:632559117453:android:36d9308ac55ee6109d2ec4",
         "android_client_info": {
           "package_name": "com.example.satvik"
         }
@@ -15,7 +15,7 @@
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyB3aKWCKlh4t-LnCNa-B3V4qG7IEwDouGk"
+          "current_key": "AIzaSyDETMDGU1zChoCvddgEDRmg0WkW3dZ6NYY"
         }
       ],
       "services": {

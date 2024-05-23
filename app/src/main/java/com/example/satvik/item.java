@@ -12,8 +12,6 @@ public class item {
         this.address = address;
         this.category = category;
         this.profile_image = profile_image;
-
-
     }
 
     public String getName() {

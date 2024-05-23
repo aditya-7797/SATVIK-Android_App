@@ -1,4 +1,7 @@
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent" android:layout_height="wrap_content">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
     <!--
         /*
          *	This content is generated from the API File Info.
@@ -14,41 +17,116 @@
          *
          */
          -->
-    <RelativeLayout android:id="@+id/add_menu" android:layout_width="wrap_content" android:layout_height="match_parent">
-        <RelativeLayout android:id="@+id/content_container" android:layout_width="wrap_content" android:layout_height="wrap_content">
-            <View android:id="@+id/_bg__add_menu" android:background="@drawable/_bg__add_menu_shape" android:layout_marginStart="0dp" android:layout_marginTop="0dp" android:layout_width="360dp" android:layout_height="800dp"/>
+    <RelativeLayout
+        android:id="@+id/add_menu"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:id="@+id/content_container"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
 
             <ImageView
-                android:id="@+id/pexels_anil_sharma_10580198_1"
-                android:layout_width="600dp"
-                android:layout_height="wrap_content"
+                android:id="@+id/pexels_anil_sharma_10580198"
+                android:layout_width="410dp"
+                android:layout_height="200dp"
                 android:layout_marginStart="0dp"
-                android:layout_marginTop="679dp"
-                android:contentDescription="pexels_anil_sharma_10580198_1"
-                android:src="@drawable/pexels_anil_sharma_10580198_1" />
+                android:layout_marginTop="650dp"
+                android:src="@drawable/add_menu_img" />
 
-            <ImageView android:id="@+id/mask_group" android:src="@drawable/mask_group_add_menu" android:contentDescription="mask_group" android:layout_marginStart="49dp" android:layout_marginTop="-56dp" android:layout_width="360dp" android:layout_height="300dp"/>
-            <RelativeLayout android:id="@+id/login_page" android:layout_marginTop="250dp" android:layout_marginStart="45dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true">
-<!--                <View android:id="@+id/_bg__login_page_ek1" android:background="@drawable/_bg__login_page_ek1_shape" android:layout_marginStart="-45dp" android:layout_marginTop="-157dp" android:layout_width="263dp" android:layout_height="285dp"/>-->
-                <TextView android:id="@+id/add_menu1" android:layout_gravity="center_horizontal|center" android:gravity="center" android:textSize="24sp" android:textColor="@color/_bg__login_page_ek1_color" android:layout_marginLeft="13dp" android:layout_marginTop="0dp" android:layout_width="230.4dp" android:layout_height="105.4dp" android:text="@string/add_menu_string"/>
-                <TextView android:id="@+id/item_name" android:layout_gravity="center_horizontal|center" android:gravity="center" android:textSize="12sp" android:shadowRadius="4" android:shadowColor="#000000" android:shadowDx="0" android:shadowDy="4" android:textColor="@color/_bg__login_page_ek1_color" android:layout_marginLeft="-2dp" android:layout_marginTop="67dp" android:layout_width="73.2dp" android:layout_height="23.2dp" android:text="@string/item_name_string"/>
-                <View android:id="@+id/rectangle_17" android:background="@drawable/rectangle_17_shape" android:layout_marginStart="12dp" android:layout_marginTop="94dp" android:layout_width="249dp" android:layout_height="28dp"/>
-                <TextView android:id="@+id/price" android:textSize="12sp" android:shadowRadius="4" android:shadowColor="#000000" android:shadowDx="0" android:shadowDy="4" android:textColor="@color/_bg__login_page_ek1_color" android:layout_marginLeft="7dp" android:layout_marginTop="129dp" android:layout_width="79.2dp" android:layout_height="23.2dp" android:text="@string/price_string"/>
-                <TextView android:id="@+id/image" android:textSize="12sp" android:shadowRadius="4" android:shadowColor="#000000" android:shadowDx="0" android:shadowDy="4" android:textColor="@color/_bg__login_page_ek1_color" android:layout_marginLeft="7dp" android:layout_marginTop="189dp" android:layout_width="79.2dp" android:layout_height="23.2dp" android:text="@string/image_string"/>
-                <View android:id="@+id/rectangle_18" android:background="@drawable/rectangle_18_shape" android:layout_marginStart="13dp" android:layout_marginTop="153dp" android:layout_width="249dp" android:layout_height="28dp"/>
-                <View android:id="@+id/rectangle_20" android:background="@drawable/rectangle_20_shape" android:layout_marginStart="14dp" android:layout_marginTop="212dp" android:layout_width="249dp" android:layout_height="28dp"/>
-                <TextView android:id="@+id/type_price_here" android:textColor="@color/type_price_here_color" android:layout_marginLeft="44dp" android:layout_marginTop="160dp" android:layout_width="203dp" android:layout_height="17dp" android:text="@string/type_price_here_string"/>
-                <TextView android:id="@+id/add_item_img_here" android:textColor="@color/type_price_here_color" android:layout_marginLeft="42dp" android:layout_marginTop="217dp" android:layout_width="203dp" android:layout_height="17dp" android:text="@string/add_item_img_here_string"/>
-                <View android:id="@+id/rectangle_19" android:background="@drawable/rectangle_19_shape" android:layout_marginStart="107dp" android:layout_marginTop="255dp" android:layout_width="71dp" android:layout_height="30dp"/>
-                <TextView android:id="@+id/add_menu_ek1" android:textStyle="bold" android:layout_gravity="center_horizontal|center" android:gravity="center" android:textSize="12sp" android:shadowRadius="4" android:shadowColor="#000000" android:shadowDx="0" android:shadowDy="4" android:textColor="@color/_bg__add_menu_color" android:layout_marginLeft="107dp" android:layout_marginTop="260dp" android:layout_width="73.2dp" android:layout_height="23.2dp" android:text="@string/add_menu_ek1_string"/>
-                <TextView android:id="@+id/type_item_name_here" android:textColor="@color/type_price_here_color" android:layout_marginLeft="41dp" android:layout_marginTop="101dp" android:layout_width="203dp" android:layout_height="17dp" android:text="@string/type_item_name_here_string"/>
+            <ImageView
+                android:id="@+id/mask_group"
+                android:layout_width="360dp"
+                android:layout_height="300dp"
+                android:layout_marginStart="49dp"
+                android:layout_marginTop="-56dp"
+                android:contentDescription="mask_group"
+                android:src="@drawable/mask_group_add_menu" />
+
+            <RelativeLayout
+                android:id="@+id/login_page"
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginStart="45dp"
+                android:layout_marginTop="300dp"
+                android:background="@color/WhiteSmoke">
+
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="35dp"
+                    android:src="@drawable/restaurant_562678" />
+
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="100dp"
+                    android:src="@drawable/price" />
+
+
+                <EditText
+                    android:id="@+id/item_name"
+                    android:layout_width="216dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="50dp"
+                    android:layout_marginTop="20dp"
+                    android:hint="Type item name here"
+                    android:minHeight="48dp" />
+
+                <EditText
+                    android:id="@+id/price"
+                    android:layout_width="216dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="50dp"
+                    android:layout_marginTop="90dp"
+                    android:hint="Type item price here"
+                    android:minHeight="48dp" />
+
+
+                <TextView
+                    android:id="@+id/item_image1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginLeft="55dp"
+                    android:layout_marginTop="200dp"
+                    android:text="@string/add_item_img_here_string"
+                    android:textColor="@color/type_price_here_color"
+                    android:textSize="16dp" />
             </RelativeLayout>
-            <ImageView android:id="@+id/image_5" android:src="@drawable/image_5" android:contentDescription="image_5" android:layout_marginStart="83dp" android:layout_marginTop="352dp" android:layout_width="31dp" android:layout_height="18dp"/>
-            <ImageView android:id="@+id/rectangle_16" android:src="@drawable/rectangle_16" android:contentDescription="rectangle_16" android:layout_marginStart="87dp" android:layout_marginTop="463dp" android:layout_width="23dp" android:layout_height="23dp"/>
-            <ImageView android:id="@+id/_vector" android:src="@drawable/_vector" android:contentDescription="_vector" android:layout_marginStart="10dp" android:layout_marginTop="11dp" android:layout_width="25dp" android:layout_height="15dp"/>
-            <RelativeLayout android:id="@+id/frame_1" android:layout_marginTop="-34dp" android:layout_marginStart="-32dp" android:layout_width="wrap_content" android:layout_height="wrap_content">
-                <View android:id="@+id/_bg___frame_1_ek1" android:background="@drawable/_bg___frame_1_ek1_shape" android:layout_marginStart="0dp" android:layout_marginTop="0dp" android:layout_width="100dp" android:layout_height="100dp"/>
+
+            <ImageView
+                android:id="@+id/item_image"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="463dp"
+                android:contentDescription="rectangle_16"
+                android:src="@drawable/rectangle_16" />
+
+
+            <Button
+                android:id="@+id/add_menu_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="535dp"
+                android:layout_centerHorizontal="true"
+                android:text="Add Menu"
+                />
+
+            <RelativeLayout
+                android:id="@+id/frame_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="-32dp"
+                android:layout_marginTop="-34dp">
+
             </RelativeLayout>
+
         </RelativeLayout>
     </RelativeLayout>
 </RelativeLayout>
