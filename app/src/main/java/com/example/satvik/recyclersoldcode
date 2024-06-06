@@ -1,0 +1,22 @@
+
+//        RecyclerView recyclerView = findViewById(R.id.recyclerview_profile);
+//
+//        List<item> items = new ArrayList<>();
+//        items.add(new item("Aditya Shinde","Katraj","serves all food",R.drawable.proimage));
+//        items.add(new item("Aditya Bhendavdekar","Katraj","serves all food",R.drawable.proimage));
+//        items.add(new item("Aditya Vaidya","Katraj","serves all food",R.drawable.proimage));
+//        items.add(new item("Aditya Lad","Katraj","serves all food",R.drawable.proimage));
+//        items.add(new item("Aditya Nalawde","Katraj","serves all food",R.drawable.proimage));
+//        items.add(new item("Aditya Narayan","Katraj","serves all food",R.drawable.proimage));
+//        items.add(new item("Aditya Maske","Katraj","serves all food",R.drawable.proimage));
+//        items.add(new item("Aditya Shinde","Katraj","serves all food",R.drawable.proimage));
+//        items.add(new item("Aditya Bhendavdekar","Katraj","serves all food",R.drawable.proimage));
+//        items.add(new item("Aditya Vaidya","Katraj","serves all food",R.drawable.proimage));
+//        items.add(new item("Aditya Lad","Katraj","serves all food",R.drawable.proimage));
+//        items.add(new item("Aditya Nalawde","Katraj","serves all food",R.drawable.proimage));
+//        items.add(new item("Aditya Narayan","Katraj","serves all food",R.drawable.proimage));
+//        items.add(new item("Aditya Maske","Katraj","serves all food",R.drawable.proimage));
+//
+//        recyclerView.setLayoutManager(new LinearLayoutManager(this));
+//        recyclerView.setAdapter( new MyAdapter_Profile(getApplicationContext(),items));
+    }
