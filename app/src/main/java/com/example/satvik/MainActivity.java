@@ -28,13 +28,10 @@ public class MainActivity extends AppCompatActivity {
 
     public static String usermobile;
     private ImageView go_to_setting;
-
     private EditText editTextSearch;
     private RecyclerView recyclerView;
     private MyAdapter_Profile adapter;
-
     private String Mobile;
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -42,22 +39,24 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         go_to_setting = findViewById(R.id.mpagesetting);
-
         editTextSearch = findViewById(R.id.editTextSearch);
         recyclerView = findViewById(R.id.recyclerview_profile);
 
-
-
         Intent intu = getIntent();
         Mobile = intu.getStringExtra("Mobile");
-        Toast.makeText(MainActivity.this, Mobile, Toast.LENGTH_SHORT).show();
 
-        usermobile = Mobile;
+        if (Mobile != null) {
+            Toast.makeText(MainActivity.this, Mobile, Toast.LENGTH_SHORT).show();
+            usermobile = Mobile;
+        } else {
+            Toast.makeText(MainActivity.this, "No mobile number provided", Toast.LENGTH_SHORT).show();
+        }
 
         go_to_setting.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, setting.class);
+                intent.putExtra("Users_No", usermobile);
                 startActivity(intent);
             }
         });
@@ -66,16 +65,8 @@ public class MainActivity extends AppCompatActivity {
         adapter = new MyAdapter_Profile(this, new ArrayList<>());
         recyclerView.setAdapter(adapter);
 
-
-        Intent i = getIntent();
-        Mobile = i.getStringExtra("mobile");
-        Toast.makeText(MainActivity.this, "Supplier Login: "+ Mobile, Toast.LENGTH_SHORT).show();
-
         FirebaseFirestore db = FirebaseFirestore.getInstance();
-
-        List<Supplier> items = new ArrayList<>(); // Initialize the list here
-
-
+        List<Supplier> items = new ArrayList<>();
 
         db.collection("suppliers")
                 .get()
@@ -85,18 +76,16 @@ public class MainActivity extends AppCompatActivity {
                         if (task.isSuccessful()) {
                             for (QueryDocumentSnapshot document : task.getResult()) {
                                 Supplier supplier = document.toObject(Supplier.class);
-                                supplier.setMobile(document.getString("mobile")); // Set contact information
+                                supplier.setMobile(document.getString("mobile"));
                                 items.add(supplier);
                             }
                             Log.d("MainActivity", "Items size: " + items.size());
-                            if (items != null && !items.isEmpty()) { // Check if items is not null and not empty
+                            if (!items.isEmpty()) {
                                 adapter.setItems(items);
 
-                                // Implement search functionality
                                 editTextSearch.addTextChangedListener(new TextWatcher() {
                                     @Override
-                                    public void beforeTextChanged(CharSequence s, int start, int count, int after) {
-                                    }
+                                    public void beforeTextChanged(CharSequence s, int start, int count, int after) {}
 
                                     @Override
                                     public void onTextChanged(CharSequence s, int start, int before, int count) {
@@ -104,18 +93,15 @@ public class MainActivity extends AppCompatActivity {
                                     }
 
                                     @Override
-                                    public void afterTextChanged(Editable s) {
-                                    }
+                                    public void afterTextChanged(Editable s) {}
                                 });
                             } else {
                                 Toast.makeText(MainActivity.this, "No data available", Toast.LENGTH_SHORT).show();
-                                Log.e("MainActivity", "No data available"); // Add this line for debugging
+                                Log.e("MainActivity", "No data available");
                             }
                         } else {
-                            // Handle failures
                             Toast.makeText(MainActivity.this, "Failed to fetch data", Toast.LENGTH_SHORT).show();
                             Log.e("MainActivity", "Error getting documents: ", task.getException());
-                            Toast.makeText(MainActivity.this, "Error getting documents", Toast.LENGTH_SHORT).show(); // Add this line for debugging
                         }
                     }
                 });

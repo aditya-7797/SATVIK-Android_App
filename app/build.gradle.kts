@@ -38,6 +38,15 @@ android {
     }
 }
 
+// Project-level build.gradle
+
+
+
+
+// App-level build.gradle
+
+
+
 dependencies {
 
     implementation("androidx.appcompat:appcompat:1.6.1")
@@ -70,8 +79,31 @@ dependencies {
     implementation ("com.google.firebase:firebase-core:20.0.0")
     implementation ("com.google.firebase:firebase-functions:20.4.0")
     implementation ("com.squareup.picasso:picasso:2.71828")
-
-
+    implementation ("com.google.firebase:firebase-storage:20.0.0")
+    implementation ("com.google.firebase:firebase-firestore:23.0.3")
     implementation ("com.google.firebase:firebase-firestore:24.11.1")
+    implementation ("androidx.appcompat:appcompat:1.2.0")
+    // Firestore
+    implementation ("com.google.firebase:firebase-firestore:24.3.0")
+// RecyclerView
+    implementation ("androidx.recyclerview:recyclerview:1.2.1")
+// Picasso (for image loading)
+    implementation ("com.squareup.picasso:picasso:2.71828")
+
+    implementation ("androidx.recyclerview:recyclerview:1.2.1")
+
+    // Firestore
+    implementation ("com.google.firebase:firebase-firestore:24.0.2")
+    implementation ("com.google.firebase:firebase-storage:20.0.1")
+
+    // Glide for image loading
+    implementation ("com.github.bumptech.glide:glide:4.12.0")
+    annotationProcessor ("com.github.bumptech.glide:compiler:4.12.0")
+
+
+
+
+
+
 
 }

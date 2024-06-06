@@ -21,6 +21,9 @@ import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.firestore.CollectionReference;
 import com.google.firebase.firestore.DocumentReference;
 import com.google.firebase.firestore.FirebaseFirestore;
+import com.google.firebase.storage.FirebaseStorage;
+import com.google.firebase.storage.StorageReference;
+import com.google.firebase.storage.UploadTask;
 import com.squareup.picasso.Picasso;
 
 import java.util.HashMap;
@@ -39,6 +42,7 @@ public class add_menu extends AppCompatActivity {
     private FirebaseAuth mAuth;
     private FirebaseUser currentUser;
     private FirebaseFirestore db;
+    private FirebaseStorage storage;
     String suppMobile;
 
     @Override
@@ -49,6 +53,7 @@ public class add_menu extends AppCompatActivity {
         mAuth = FirebaseAuth.getInstance();
         currentUser = mAuth.getCurrentUser();
         db = FirebaseFirestore.getInstance();
+        storage = FirebaseStorage.getInstance();
 
         Intent i = getIntent();
         suppMobile = i.getStringExtra("mobile1");
@@ -71,7 +76,7 @@ public class add_menu extends AppCompatActivity {
             if (name.isEmpty() || price.isEmpty() || imageUri == null) {
                 Toast.makeText(add_menu.this, "Please fill all the details and select an image.", Toast.LENGTH_SHORT).show();
             } else {
-                uploadData(name, price, imageUri.toString());
+                uploadImage(name, price, imageUri);
             }
         });
     }
@@ -92,9 +97,30 @@ public class add_menu extends AppCompatActivity {
         }
     }
 
-    private void uploadData(String name, String price, String imageUrl) {
+    private void uploadImage(String name, String price, Uri imageUri) {
         progressDialog.show();
 
+        // Create a storage reference
+        StorageReference storageRef = storage.getReference("menu_images/" + System.currentTimeMillis() + ".jpg");
+
+        // Upload the file to Firebase Storage
+        storageRef.putFile(imageUri)
+                .addOnSuccessListener(taskSnapshot -> storageRef.getDownloadUrl().addOnSuccessListener(uri -> {
+                    String imageUrl = uri.toString();
+                    uploadData(name, price, imageUrl);
+                }).addOnFailureListener(e -> {
+                    progressDialog.dismiss();
+                    Toast.makeText(add_menu.this, "Failed to retrieve image URL.", Toast.LENGTH_SHORT).show();
+                    Log.e("Storage Error", "Error retrieving image URL", e);
+                }))
+                .addOnFailureListener(e -> {
+                    progressDialog.dismiss();
+                    Toast.makeText(add_menu.this, "Image upload failed.", Toast.LENGTH_SHORT).show();
+                    Log.e("Storage Error", "Image upload failed", e);
+                });
+    }
+
+    private void uploadData(String name, String price, String imageUrl) {
         if (currentUser != null) {
 
             CollectionReference suppliersAccCollectionRef = db.collection("suppliers_acc");

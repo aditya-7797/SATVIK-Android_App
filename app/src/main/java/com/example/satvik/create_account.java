@@ -26,18 +26,14 @@ public class create_account extends AppCompatActivity {
     private Button btnCreateAccount;
     private ProgressBar progressBar;
 
-    private Button goto_main_activity;
-
-
     private FirebaseAuth mAuth;
     private FirebaseFirestore db;
 
     @Override
-
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.create_acc);
-        
+
         mAuth = FirebaseAuth.getInstance();
         db = FirebaseFirestore.getInstance();
 
@@ -52,15 +48,10 @@ public class create_account extends AppCompatActivity {
         btnCreateAccount.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(create_account.this,MainActivity.class);
-                startActivity(intent);
                 registerUser();
-
-                // Register user when this button is clicked
             }
         });
     }
-
 
     private void registerUser() {
         String fullName = etFullName.getText().toString().trim();
@@ -85,6 +76,11 @@ public class create_account extends AppCompatActivity {
                                 // Clear EditText fields
                                 clearInputFields();
 
+                                // Navigate to MainActivity after account creation
+                                Intent intent = new Intent(create_account.this, MainActivity.class);
+                                intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK); // Clears the activity stack
+                                startActivity(intent);
+                                finish(); // Optional: Call finish to prevent returning to this activity
                             } else {
                                 Toast.makeText(create_account.this, "Authentication failed: " + task.getException().getMessage(), Toast.LENGTH_SHORT).show();
                             }
@@ -99,7 +95,6 @@ public class create_account extends AppCompatActivity {
         etPassword.setText("");
         etConfirmPassword.setText("");
     }
-
 
     private boolean validateInputs(String fullName, String mobileNo, String password, String confirmPassword) {
         if (fullName.isEmpty() || mobileNo.isEmpty() || password.isEmpty() || confirmPassword.isEmpty()) {
@@ -135,8 +130,8 @@ public class create_account extends AppCompatActivity {
 
     private void saveUserDetails(String fullName, String mobileNo) {
         Map<String, Object> user = new HashMap<>();
-        user.put("fullname", fullName);  // String datatype
-        user.put("mobile_no", mobileNo);  // String datatype
+        user.put("fullname", fullName);
+        user.put("mobile_no", mobileNo);
 
         db.collection("users").document(mobileNo)
                 .set(user)
@@ -151,5 +146,4 @@ public class create_account extends AppCompatActivity {
                     }
                 });
     }
-
 }

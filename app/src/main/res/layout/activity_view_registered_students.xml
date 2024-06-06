@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view_registered_students">
+
+    <ImageView
+        android:layout_width="460dp"
+        android:layout_height="181dp"
+        android:layout_marginEnd="4dp"
+        android:src="@drawable/mask_group_new_orders"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:layout_editor_absoluteY="-4dp"></ImageView>
+
+    <LinearLayout
+        android:layout_marginTop="200dp"
+        android:id="@+id/header_layout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Registered Students"
+            android:textColor="@android:color/black"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_view"
+        android:layout_width="370dp"
+        android:layout_height="548dp"
+        android:clipToPadding="false"
+        android:overScrollMode="never"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.313"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/header_layout"
+        app:layout_constraintVertical_bias="0.522"
+        tools:listitem="@layout/item_student" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

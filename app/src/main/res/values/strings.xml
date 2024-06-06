@@ -102,5 +102,88 @@
         <item>Supplier</item>
     </string-array>
 
+    <string name="About_us">About Us</string>
+    <string name="Wellcome">Wellcome to Satvik!</string>
+    <string name="paragraph"><b>Wellcome To Satvik !</b>
+        \n\n
+        Satvik is a revolutionary mess management app designed specifically for college students. Our mission is: to provide students with nutritious, delicious meals tailored to their preferences and dietary needs, and to create employment opportunities for housewives who are passionate about cooking.
+        \n\n
+        <b>Our Mission</b>
+        \n\n
+        At Satvik, we aim to:
+        \n\n
+        <b>Nourish Students:</b> We understand the challenges students face in maintaining a balanced diet amidst their hectic schedules. Satvik ensures that students receive wholesome, home-cooked meals that cater to various dietary preferences, including vegetarian, vegan, gluten-free, and more.\n
+<b>Empower Housewives:</b> We believe in empowering housewives by providing them with an opportunity to showcase their culinary talents and earn a sustainable income. Satvik connects these talented individuals with a broader community, allowing them to share their love for cooking while supporting their families.\n
+        <b>What We Offer</b>\n\n
+
+<b>Personalized Meal Plans:</b> Students can select meals based on their dietary needs and preferences, ensuring they get the right nutrition every day.\n
+<b>Convenience and Reliability:</b> With Satvik, students no longer have to worry about meal planning or preparation. Our reliable service ensures timely delivery of fresh, homemade food right to their doorstep.\n
+<b>Community Connection:</b> Satvik fosters a sense of community by connecting students with local housewives, promoting cultural exchange and mutual support.\n
+<b>Quality and Hygiene:</b> We prioritize quality and hygiene in all our meals. Each dish is prepared with fresh ingredients and utmost care to meet high standards of cleanliness and taste.\n\n
+<b>Why Choose Satvik?</b>
+
+Healthy Eating Made Easy: Our app simplifies the process of finding and receiving nutritious meals, helping students maintain a healthy lifestyle effortlessly.
+Support Local Cooks: By choosing Satvik, you are supporting local housewives and contributing to their financial independence and empowerment.
+Variety and Flexibility: Whether you have specific dietary restrictions or simply crave variety, Satvik offers a wide range of meal options to satisfy every palate.
+User-Friendly Interface: Our app is designed to be intuitive and easy to use, making the entire process from meal selection to delivery seamless and hassle-free.
+Join the Satvik Family
+
+We invite you to join the Satvik family and experience the joy of healthy eating combined with the warmth of home-cooked meals.
+        Together, we can create a community where everyone benefits – from students enjoying nutritious food to housewives finding meaningful employment.</string>
+
+    <string name="problem_statement">We\'re committed to providing the best possible experience for our users.
+        \n\n
+        If you encounter any issues while using our app, please let us know so we can resolve them as quickly as possible.</string>
+    <string name="ordering_help">Ordering Help</string>
+    <string name="ordering_help_info"><b>1. Sign Up / Log In</b>
+        \n
+New Users: If you’re new to Satvik, sign up using your mobile number. Follow the on-screen instructions to complete your registration.
+Returning Users: Log in with your existing credentials.
+        \n\n
+        <b>2. Browse Food Items</b>
+        \n
+After logging in, navigate to the "Food Items" section.
+Browse through the available food items listed by housewives. You can filter items based on your preferences (e.g., vegetarian, vegan, gluten-free).
+        \n\n
+        <b>3. Select Food Items</b>
+        \n
+Click on the food item you’re interested in.
+Review the details including ingredients, price, and available serving times.
+        \n\n
+        <b>4. Add to Cart</b>
+        \n
+If you decide to order, click the "Add to Cart" button.
+You can continue browsing and add multiple items to your cart.
+        \n\n
+        <b>5. Review and Confirm Order</b>
+        \n
+Once you’ve added all desired items to your cart, go to the "Cart" section.
+Review your order details, including the total price and delivery/pickup times.
+Make any necessary adjustments or remove items if needed.
+        \n\n
+        <b>6. Place Order</b>
+        \n
+Click the "Place Order" button.
+Choose your payment method (e.g., credit/debit card, UPI, cash on delivery).
+Enter any special instructions for the order if needed (e.g., no spicy, extra cheese).
+        \n\n
+        <b>7. Order Confirmation</b>
+        \n
+After placing your order, you will receive an order confirmation with the estimated delivery/pickup time.
+Track your order status in the "My Orders" section.
+        \n\n
+        <b>8. Order Received</b>
+        \n
+Once you receive your order, you can confirm delivery/pickup in the app.
+Enjoy your meal!
+        \n\n
+        <b>9. Provide Feedback</b>
+        \n
+After enjoying your meal, don’t forget to rate and review the food item and the service. Your feedback helps us improve!</string>
+    <string name="ordering_help_title"><b>FOR STUDENTS:</b></string>
+    <string name="report_a_problem">Report a problem</string>
+
+
+
 
 </resources>

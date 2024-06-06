@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_marginTop="10dp"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:id="@+id/order1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <RelativeLayout
+            android:id="@+id/group_17"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp">
+
+            <View
+                android:id="@+id/rectangle_27"
+                android:layout_width="337dp"
+                android:layout_height="120dp"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="0dp"
+                android:background="@drawable/rectangle_27_shape" />
+        </RelativeLayout>
+
+        <!--        <TextView-->
+        <!--            android:id="@+id/item_name___chapati"-->
+        <!--            android:layout_width="wrap_content"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:layout_marginLeft="8dp"-->
+        <!--            android:layout_marginTop="0dp"-->
+        <!--            android:text="@string/item_name___chapati_string"-->
+        <!--            android:textColor="@color/new_orders_color"-->
+        <!--            android:textSize="16sp" />-->
+
+        <!--        <TextView-->
+        <!--            android:id="@+id/quantity___4"-->
+        <!--            android:layout_width="wrap_content"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:layout_marginLeft="8dp"-->
+        <!--            android:layout_marginTop="25dp"-->
+        <!--            android:text="@string/quantity___4_string"-->
+        <!--            android:textColor="@color/new_orders_color"-->
+        <!--            android:textSize="16sp" />-->
+
+        <!--        <TextView-->
+        <!--            android:id="@+id/Total_price"-->
+        <!--            android:layout_width="wrap_content"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:layout_marginLeft="8dp"-->
+        <!--            android:layout_marginTop="50dp"-->
+        <!--            android:text="Total Cost:- 40"-->
+        <!--            android:textColor="@color/new_orders_color"-->
+        <!--            android:textSize="16sp"></TextView>-->
+
+        <TextView
+            android:id="@+id/item_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="15dp"
+            android:text="Item Name:- Rice"
+            android:textColor="@color/new_orders_color"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/item_quantity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="40dp"
+            android:text="Quantity:- 1"
+            android:textColor="@color/new_orders_color"
+            android:textSize="16sp"></TextView>
+
+
+        <TextView
+            android:id="@+id/username"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="65dp"
+            android:text="@string/ordered_by___rajesh_patil_string"
+            android:textColor="@color/new_orders_color"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/user_contact"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="90dp"
+            android:text="Contact No:- 8908908900"
+            android:textColor="@color/new_orders_color"
+            android:textSize="16sp"></TextView>
+
+        <View
+            android:id="@+id/rectangle_29"
+            android:layout_width="65dp"
+            android:layout_height="42dp"
+            android:layout_marginStart="258dp"
+            android:layout_marginTop="37dp"
+            android:background="@drawable/rectangle_29_shape" />
+
+        <TextView
+            android:id="@+id/view_order"
+            android:layout_width="72dp"
+            android:layout_height="43.5dp"
+            android:layout_gravity="center_horizontal|center"
+            android:layout_marginLeft="254dp"
+            android:layout_marginTop="37dp"
+            android:gravity="center"
+            android:text="Confirm Order"
+            android:textColor="@color/_bg__android_large___11_color"
+            android:textSize="15sp" />
+
+
+    </RelativeLayout>
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

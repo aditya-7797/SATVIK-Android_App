@@ -1,0 +1,211 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+        <!-- Content Container -->
+        <RelativeLayout
+            android:id="@+id/content_container"
+            android:layout_width="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_height="wrap_content">
+
+            <!-- Group 10 Layout -->
+            <RelativeLayout
+                android:id="@+id/group_10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="36dp">
+
+                <View
+                    android:id="@+id/rectangle_20"
+                    android:layout_width="323dp"
+                    android:layout_height="101dp"
+                    android:background="@drawable/setting102" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="7dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Your Profile"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:id="@+id/supplier_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="7dp"
+                    android:layout_marginTop="40dp"
+                    android:text="Name"
+                    android:textSize="17dp" />
+
+                <TextView
+                    android:id="@+id/supplier_mobile"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="7dp"
+                    android:layout_marginTop="65dp"
+                    android:text="Mob.No."
+                    android:textSize="17dp" />
+
+            </RelativeLayout>
+
+            <!-- Rectangle 25 Layout -->
+            <RelativeLayout
+                android:id="@+id/rectangle_25"
+                android:layout_width="320dp"
+                android:layout_height="200dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="160dp"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/setting106" />
+
+
+            <!-- Order History Layout -->
+
+    <RelativeLayout
+        android:id="@+id/order_history_ek7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="21dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="180dp">
+
+        <View
+            android:id="@+id/rectangle_24_ek4"
+            android:layout_width="298dp"
+            android:layout_height="43dp"
+            android:background="@drawable/setting111" />
+
+        <TextView
+            android:id="@+id/about_us"
+            android:layout_width="120.5dp"
+            android:layout_height="32.5dp"
+            android:layout_marginLeft="46dp"
+            android:layout_marginTop="8dp"
+            android:text="@string/about_us_string"
+            android:textColor="@color/setting_colour2"
+            android:textSize="15sp" />
+
+        <ImageView
+            android:id="@+id/about_us_1"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:contentDescription="about_us_1"
+            android:src="@drawable/about_us_1" />
+
+        <ImageView
+            android:id="@+id/vector_ek5"
+            android:layout_width="8dp"
+            android:layout_height="14dp"
+            android:layout_marginStart="282dp"
+            android:layout_marginTop="13dp"
+            android:contentDescription="vector_ek5"
+            android:src="@drawable/open1" />
+
+    </RelativeLayout>
+            <!-- Report a Problem Layout -->
+            <RelativeLayout
+                android:id="@+id/order_history_ek9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="19dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="235dp">
+
+                <View
+                    android:id="@+id/rectangle_24_ek5"
+                    android:layout_width="298dp"
+                    android:layout_height="43dp"
+                    android:background="@drawable/setting112" />
+
+                <ImageView
+                    android:id="@+id/problem_1"
+                    android:layout_width="32dp"
+                    android:layout_height="24dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="10dp"
+                    android:contentDescription="problem_1"
+                    android:src="@drawable/problem_1" />
+
+                <TextView
+                    android:id="@+id/report_a_problem"
+                    android:layout_width="136.5dp"
+                    android:layout_height="32.5dp"
+                    android:layout_marginLeft="46dp"
+                    android:layout_marginTop="8dp"
+                    android:text="@string/report_a_problem_string"
+                    android:textColor="@color/setting_colour2"
+                    android:textSize="15sp" />
+
+                <ImageView
+                    android:id="@+id/vector_ek6"
+                    android:layout_width="8dp"
+                    android:layout_height="14dp"
+                    android:layout_marginStart="282dp"
+                    android:layout_marginTop="13dp"
+                    android:contentDescription="vector_ek6"
+                    android:src="@drawable/open1" />
+
+                <!-- Settings Layout -->
+                <RelativeLayout
+                    android:id="@+id/order_history_ek11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="55dp">
+
+                    <View
+                        android:id="@+id/rectangle_24_ek6"
+                        android:layout_width="296dp"
+                        android:layout_height="43dp"
+                        android:background="@drawable/setting113" />
+
+                    <ImageView
+                        android:id="@+id/setting_1"
+                        android:layout_width="42dp"
+                        android:layout_height="24dp"
+                        android:layout_marginTop="10dp"
+                        android:contentDescription="setting_1"
+                        android:src="@drawable/setting_1" />
+
+                    <TextView
+                        android:id="@+id/settings"
+                        android:layout_width="120.5dp"
+                        android:layout_height="32.5dp"
+                        android:layout_marginLeft="46dp"
+                        android:layout_marginTop="8dp"
+                        android:text="@string/settings_string"
+                        android:textColor="@color/setting_colour2"
+                        android:textSize="15sp" />
+
+                    <ImageView
+                        android:id="@+id/vector_ek7"
+                        android:layout_width="8dp"
+                        android:layout_height="14dp"
+                        android:layout_marginStart="282dp"
+                        android:layout_marginTop="13dp"
+                        android:contentDescription="vector_ek7"
+                        android:src="@drawable/open1" />
+
+                </RelativeLayout>
+            </RelativeLayout>
+
+            <!-- Logout Button -->
+            <Button
+                android:id="@+id/go_to_login"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="380dp"
+                android:background="@drawable/setting113"
+                android:text="Logout" />
+            </RelativeLayout>
+    </RelativeLayout>
+

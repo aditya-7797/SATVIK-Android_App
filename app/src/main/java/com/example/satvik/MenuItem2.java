@@ -1,24 +1,58 @@
 package com.example.satvik;
+
 public class MenuItem2 {
-    private int imageResource;
-    private String itemName;
-    private String itemPrice;
+    private String name;
+    private String price;
+    private String imageUrl;
+    private String mobile;
 
-    public MenuItem2( String itemName, String itemPrice) {
-//        this.imageResource = imageResource;
-        this.itemName = itemName;
-        this.itemPrice = itemPrice;
+    private String user_mobile;
+
+    private String user_name;
+
+    // Constructor
+    public MenuItem2(String name, String price, String imageUrl, String mobile, String user_mobile, String user_name) {
+        this.name = name;
+        this.price = price;
+        this.imageUrl = imageUrl;
+        this.mobile = mobile;
+        this.user_mobile= user_mobile;
+        this.user_name = user_name;
     }
 
-    public int getImageResource() {
-        return imageResource;
+    public String getUser_name() {
+        return user_name;
     }
 
-    public String getItemName() {
-        return itemName;
+    public void setUser_name(String user_name) {
+        this.user_name = user_name;
     }
 
-    public String getItemPrice() {
-        return itemPrice;
+    public String getUser_mobile() {
+        return user_mobile;
+    }
+
+    public void setUser_mobile(String user_mobile) {
+        this.user_mobile = user_mobile;
+    }
+
+    public String getMobile() {
+        return mobile;
+    }
+    public void setMobile(String mobile) {
+        this.mobile = mobile;
+    }
+
+    // Getters
+    public String getName() {
+        return name;
+    }
+
+    public String getPrice() {
+        return price;
+    }
+
+    public String getImageUrl() {
+        return imageUrl;
     }
 }

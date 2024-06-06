@@ -3,7 +3,6 @@ package com.example.satvik;
 import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
-import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -46,11 +45,11 @@ public class profile extends AppCompatActivity {
         contactTextView.setText(contact);
 
         // For demonstration purposes, you can display the received data in toasts
-        Toast.makeText(profile.this, "Supplier Login: " + contact, Toast.LENGTH_SHORT).show();
-        Toast.makeText(profile.this, "Supplier Login: " + profile_fullname, Toast.LENGTH_SHORT).show();
-        Toast.makeText(profile.this, "Supplier Login: " + profile_category, Toast.LENGTH_SHORT).show();
-        Toast.makeText(profile.this, "Supplier Login: " + profile_address, Toast.LENGTH_SHORT).show();
-        Toast.makeText(profile.this, "Student Login: " + user_mobile, Toast.LENGTH_SHORT).show();
+//        Toast.makeText(profile.this, "Supplier Login: " + contact, Toast.LENGTH_SHORT).show();
+//        Toast.makeText(profile.this, "Supplier Login: " + profile_fullname, Toast.LENGTH_SHORT).show();
+//        Toast.makeText(profile.this, "Supplier Login: " + profile_category, Toast.LENGTH_SHORT).show();
+//        Toast.makeText(profile.this, "Supplier Login: " + profile_address, Toast.LENGTH_SHORT).show();
+//        Toast.makeText(profile.this, "Student Login: " + user_mobile, Toast.LENGTH_SHORT).show();
 
         // Check if contact is null
         if (contact != null) {
@@ -69,9 +68,15 @@ public class profile extends AppCompatActivity {
                             // Get data from each document in the menu subcollection
                             String itemName = documentSnapshot.getString("name");
                             String itemPrice = documentSnapshot.getString("price");
-
-                            // Create a MenuItem object and add it to the list
-                            menuItems.add(new MenuItem2(itemName, itemPrice));
+                            String imageUrl = documentSnapshot.getString("imageUrl"); // Retrieve the image URL
+//                            Toast.makeText(this, "image: "+imageUrl, Toast.LENGTH_SHORT).show();
+//                            Toast.makeText(this, "itemName: "+itemName, Toast.LENGTH_SHORT).show();
+                            String mobile = contact;
+                            String user_mobileNo= user_mobile;
+                            String user_name=profile_fullname;
+                            // Create a MenuItem2 object and add it to the list
+                            menuItems.add(new MenuItem2(itemName, itemPrice, imageUrl,mobile ,
+                                    user_mobileNo,user_name));
                         }
 
                         // Initialize RecyclerView and adapter
@@ -93,13 +98,10 @@ public class profile extends AppCompatActivity {
 
         Button register = findViewById(R.id.register);
 
-        register.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent i = new Intent(profile.this, mess_register.class);
-                i.putExtra("contact", contact);
-                startActivity(i);
-            }
+        register.setOnClickListener(v -> {
+            Intent intent = new Intent(profile.this, mess_register.class);
+            intent.putExtra("contact", contact);
+            startActivity(intent);
         });
     }
 }

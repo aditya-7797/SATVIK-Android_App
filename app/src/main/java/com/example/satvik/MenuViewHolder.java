@@ -43,7 +43,6 @@ import androidx.recyclerview.widget.RecyclerView;
                         intent.putExtra("contact", contact); // Pass contact information
                         intent.putExtra("user_mob", user_mob);
                         context.startActivity(intent);
-                        Toast.makeText(context, "dnvkn", Toast.LENGTH_SHORT).show();
                     }
                 }
             });

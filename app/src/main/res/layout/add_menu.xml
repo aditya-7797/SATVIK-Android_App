@@ -29,11 +29,11 @@
 
             <ImageView
                 android:id="@+id/pexels_anil_sharma_10580198"
-                android:layout_width="410dp"
-                android:layout_height="200dp"
-                android:layout_marginStart="0dp"
-                android:layout_marginTop="650dp"
-                android:src="@drawable/add_menu_img" />
+                android:layout_width="321dp"
+                android:layout_height="800dp"
+                android:layout_marginStart="-54dp"
+                android:layout_marginTop="700dp"
+                android:src="@drawable/mask_group_ek1" />
 
             <ImageView
                 android:id="@+id/mask_group"

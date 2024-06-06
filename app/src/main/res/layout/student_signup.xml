@@ -30,16 +30,24 @@
                 android:src="@drawable/mask_group" />
             <ImageView android:id="@+id/mask_group_signup_stu" android:src="@drawable/mask_group_signup_stu" android:contentDescription="mask_group_ek1" android:layout_marginStart="-46dp" android:layout_marginTop="-78dp" android:layout_width="370dp" android:layout_height="265dp"/>
             <TextView android:id="@+id/sign_up" android:layout_width="230.4dp" android:layout_height="105.4dp" android:layout_alignParentStart="true" android:layout_alignParentEnd="true" android:layout_gravity="center_horizontal|center" android:layout_marginStart="90dp" android:layout_marginLeft="85dp" android:layout_marginTop="173dp" android:layout_marginEnd="91dp" android:gravity="center" android:text="@string/sign_up_string" android:textColor="@color/sign_up_color" android:textSize="24sp" android:layout_centerHorizontal="true"/>
-            <TextView android:id="@+id/_already_a_member__login_here" android:layout_width="216.3dp" android:layout_height="48.3dp" android:layout_alignParentStart="true" android:layout_alignParentEnd="true" android:layout_gravity="center_horizontal|center" android:layout_marginStart="97dp" android:layout_marginLeft="85dp" android:layout_marginTop="246dp" android:layout_marginEnd="98dp" android:gravity="center" android:shadowColor="#000000" android:shadowDx="0" android:shadowDy="4" android:shadowRadius="4" android:text="@string/_already_a_member__login_here_string" android:textColor="@color/sign_up_color" android:textSize="13sp" android:layout_centerHorizontal="true"/>
-            <ImageView android:id="@+id/google_signup_1" android:layout_width="265dp" android:layout_height="45dp" android:layout_alignParentStart="true"  android:layout_alignParentEnd="true" android:layout_marginStart="76dp" android:layout_marginTop="300dp" android:layout_marginEnd="70dp" android:contentDescription="google_signup_1" android:src="@drawable/google_signup_1"  android:layout_centerHorizontal="true"/>
-            <RelativeLayout android:id="@+id/group_2" android:layout_marginTop="370dp" android:layout_marginStart="85dp" android:layout_width="wrap_content" android:layout_height="wrap_content"  android:layout_centerHorizontal="true">
-                <View android:id="@+id/_bg__group_2_ek1" android:background="@drawable/_bg__group_2_ek1_shape" android:layout_marginStart="-59dp" android:layout_marginTop="-348dp" android:layout_width="227dp" android:layout_height="44dp"/>
-                <TextView android:id="@+id/or" android:layout_gravity="center_horizontal|center" android:gravity="center" android:textSize="12sp" android:shadowRadius="4" android:shadowColor="#000000" android:shadowDx="0" android:shadowDy="4" android:textColor="@color/sign_up_color" android:layout_marginLeft="63dp" android:layout_marginTop="-13dp" android:layout_width="111.4dp" android:layout_height="48.4dp" android:text="@string/or_string"/>
-                <ImageView android:id="@+id/line_1" android:src="@drawable/line_1" android:contentDescription="line_1" android:layout_marginStart="-1dp" android:layout_marginTop="9dp" android:layout_width="101dp" android:layout_height="1dp"/>
-                <ImageView android:id="@+id/line_2" android:src="@drawable/line_2" android:contentDescription="line_2" android:layout_marginStart="135dp" android:layout_marginTop="9dp" android:layout_width="91dp" android:layout_height="1dp"/>
-            </RelativeLayout>
-            <View android:id="@+id/rectangle_5" android:layout_width="137dp" android:layout_height="26dp" android:layout_alignParentStart="true" android:layout_alignParentEnd="true" android:layout_marginStart="137dp" android:layout_marginTop="425.6dp" android:layout_marginEnd="137dp" android:background="@drawable/rectangle_5_shape"/>
-            <TextView android:id="@+id/createacc" android:layout_width="299.3dp" android:layout_height="40dp" android:layout_alignParentStart="true" android:layout_alignParentEnd="true" android:layout_gravity="center_horizontal|center" android:layout_marginStart="59dp" android:layout_marginLeft="49dp" android:layout_marginTop="420dp" android:layout_marginEnd="55dp" android:gravity="center" android:text="@string/createacc" android:textColor="@color/sign_up_color" android:textSize="13sp" android:layout_centerHorizontal="true"/>
+            <TextView android:id="@+id/_already_a_member__login_here" android:layout_width="216.3dp" android:layout_height="48.3dp" android:layout_alignParentStart="true" android:layout_alignParentEnd="true" android:layout_gravity="center_horizontal|center" android:layout_marginStart="97dp" android:layout_marginLeft="85dp" android:layout_marginTop="246dp" android:layout_marginEnd="98dp" android:gravity="center" android:shadowDx="0" android:shadowDy="4" android:shadowRadius="4" android:text="@string/_already_a_member__login_here_string" android:textColor="@color/sign_up_color" android:textSize="13sp" android:layout_centerHorizontal="true"/>
+
+            <TextView
+                android:id="@+id/createacc"
+                android:layout_width="299.3dp"
+                android:layout_height="40dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center_horizontal|center"
+                android:layout_marginStart="59dp"
+                android:layout_marginLeft="49dp"
+                android:layout_marginTop="300dp"
+                android:layout_marginEnd="55dp"
+                android:gravity="center"
+                android:text="@string/createacc"
+                android:textColor="@color/sign_up_color"
+                android:textSize="23sp" />
 
             <TextView android:id="@+id/by_creating_a_account_to_agree_to_terms_of_use_and_privacy_policy" android:layout_width="299.3dp" android:layout_height="40dp" android:layout_centerHorizontal="true" android:layout_alignParentStart="true" android:layout_alignParentEnd="true" android:layout_gravity="center_horizontal|center" android:layout_marginStart="59dp" android:layout_marginLeft="49dp" android:layout_marginTop="530dp" android:layout_marginEnd="55dp" android:gravity="center" android:text="@string/by_creating_a_account_to_agree_to_terms_of_use_and_privacy_policy_string" android:textColor="@color/sign_up_color" android:textSize="13sp"/>
         </RelativeLayout>

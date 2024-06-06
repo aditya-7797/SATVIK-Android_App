@@ -48,22 +48,23 @@
             android:inputType="phone"
             android:minHeight="48dp"/>
 
-        <Button
-            android:id="@+id/payment"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Continue with Payment"
-            android:layout_below="@id/mobile_no"
-            android:layout_centerHorizontal="true"
-            android:layout_marginTop="24dp"/>
+<!--        <Button-->
+<!--            android:id="@+id/payment"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="Continue with Payment"-->
+<!--            android:layout_below="@id/mobile_no"-->
+<!--            android:layout_centerHorizontal="true"-->
+<!--            android:layout_marginTop="24dp"/>-->
 
         <Button
             android:id="@+id/register"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Register"
-            android:layout_below="@id/payment"
+
             android:layout_centerHorizontal="true"
-            android:layout_marginTop="10dp"/>
+            android:layout_marginTop="200dp"/>
     </RelativeLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
+

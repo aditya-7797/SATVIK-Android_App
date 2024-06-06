@@ -60,14 +60,15 @@
 <!--                android:textSize="13sp" />-->
 
 
-
             <EditText
                 android:id="@+id/editTextSearch"
-                android:layout_width="350dp"
-                android:layout_height="50dp"
+                android:layout_width="wrap_content"
+                android:layout_height="46dp"
                 android:layout_marginTop="10dp"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="2dp"
                 android:background="@color/white"
-                android:hint="Search for your favourite food"
+                android:hint="Search for your fav food category"
                 android:paddingStart="35dp"
                 android:singleLine="true" />
 
@@ -236,7 +237,7 @@
 
             android:layout_marginStart="350dp"
             android:layout_marginTop="20dp"
-            app:srcCompat="@drawable/mpage_i" />
+            app:srcCompat="@drawable/supmain5" />
 
     </RelativeLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

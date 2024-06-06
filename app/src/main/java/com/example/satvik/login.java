@@ -78,7 +78,7 @@ public class login extends AppCompatActivity {
             @Override
             public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
                 if (position == 0) { // Student
-                    usernameEditText.setHint("Type your Username");
+                    usernameEditText.setHint("Type your Mobile No.");
                     passwordEditText.setHint("Type your Password");
                 } else if (position == 1) { // Supplier
                     usernameEditText.setHint("Type your Mobile No.");
@@ -111,10 +111,12 @@ public class login extends AppCompatActivity {
                                     startActivity(intent);
                                     finish();
                                 } else {
-                                    Toast.makeText(login.this, "Authentication failed.", Toast.LENGTH_SHORT).show();
+                                    Toast.makeText(login.this, "Enter Valid Mobile Number and " +
+                                            "password", Toast.LENGTH_SHORT).show();
                                 }
                             } else {
-                                Toast.makeText(login.this, "Authentication failed.", Toast.LENGTH_SHORT).show();
+                                Toast.makeText(login.this, "Enter Valid Mobile Number and \" +\n" +
+                                        "                                            \"password", Toast.LENGTH_SHORT).show();
                             }
                         }
                     });
@@ -129,7 +131,8 @@ public class login extends AppCompatActivity {
                                 startActivity(intent);
                                 finish();
                             } else {
-                                Toast.makeText(login.this, "Authentication failed.", Toast.LENGTH_SHORT).show();
+                                Toast.makeText(login.this, "Enter Valid Mobile Number and \" +\n" +
+                                        "                                            \"password", Toast.LENGTH_SHORT).show();
                             }
                         }
                     });

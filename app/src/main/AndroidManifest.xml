@@ -5,12 +5,18 @@
     <uses-feature
         android:name="android.hardware.camera"
         android:required="false" />
+    <uses-feature
+        android:name="android.hardware.telephony"
+        android:required="false" />
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
     <uses-permission android:name="android.permission.READ_MEDIA_VIDEO" />
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <uses-permission android:name="android.permission.READ_MEDIA_VISUAL_USER_SELECTED" />
 
     <application
@@ -23,10 +29,37 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Satvik"
         tools:targetApi="31">
+
+        <activity
+            android:name=".NewOrderActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DeleteMenuActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Ordering_Help"
+            android:exported="false" />
+        <activity
+            android:name=".Report_Problem"
+            android:exported="false" />
+
+
+        <activity
+            android:name=".Suppliers_setting"
+            android:exported="false" />
+        <activity
+            android:name=".OrderHistoryActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view_registered_students"
+            android:exported="false" />
+
+        <activity
+            android:name=".About_us"
+            android:exported="false" />
         <activity
             android:name=".Bill"
             android:exported="false" />
-
         <activity
             android:name=".Video_page"
             android:exported="false" />
